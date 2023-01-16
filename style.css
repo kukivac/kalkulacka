@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+#placeholder{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 250px;
+    width: 200px;
+    background-color: brown;
+}
+.displej{
+    display: flex;
+    height: 50px;
+    background-color: aqua;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5px;
+}
+.tlacitka-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-flow: row nowrap;
+    max-height: 200px;
+}
+.cisilka-container{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: blue;
+    width:75%;
+    max-height: 200px;
+}
+.tlacitka-row{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.akce-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.cislo-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+.full-width{
+    width: 100%;
+}
+.akce-container{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: green;
+    width: 25%;
+}
+.clickable{
+    cursor: pointer;
+
+}
+.clickable:hover{
+    background-color: rgba(0,0,0,0.2);
+}
